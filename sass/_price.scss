@@ -1,0 +1,31 @@
+.price__title {
+    span {
+        margin-left: 121px;
+    }
+}
+
+.price__inner {
+    display: flex;
+}
+
+.price__on-title,
+.price__off-title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.price__on {
+    margin-right: 70px;
+    width: 530px;
+}
+
+
+.price__list-item {
+    margin-bottom: 20px;
+}
+
+.price {
+    background: url(../images/price/price-bg.png) no-repeat center right 15%;
+}

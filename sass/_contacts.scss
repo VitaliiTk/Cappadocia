@@ -1,0 +1,80 @@
+.contacts {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__content {
+        width: 50%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    &__date {
+        span {
+            margin-left: 130px;
+            margin-bottom: 10px;
+        }
+    }
+    &__price {
+        margin-left: 122px;
+        margin-top: -32px;
+        span {
+            margin-left: 120px;
+            margin-bottom: 0;
+        }
+    }
+    &__form-title {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 50px;
+    }
+    &__form {
+        max-width: 383px;
+        margin: 0 auto;
+        input {
+            border: 1px solid #E2AB3F;
+            padding: 17px 30px 14px;
+            display: block;
+            width: 100%;
+            height: 50px;
+            font-family: 'Roboto Condensed';
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            margin-bottom: 20px;
+            &:focus {
+                outline: 1px solid;
+            }
+            &::placeholder {
+                font-family: 'Roboto Condensed';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 21px;
+                color: #000;
+            }
+            &:focus::placeholder,
+            &:active::placeholder {
+                font-size: 0;
+            }
+        }
+        &-btn {
+            border: 1px solid #E2AB3F;
+            text-transform: uppercase;
+            padding: 12px 45px 10px 46px;
+            background-color: transparent;
+            font-family: 'Roboto Condensed';
+            font-style: 400;
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 28px;
+            display: block;
+            margin: 0 auto;
+            cursor: pointer;
+            &:focus {
+                outline: 1px solid;
+            }
+        }
+    }
+}

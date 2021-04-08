@@ -1,0 +1,64 @@
+.trip {
+    &__inner {
+        position: relative;
+    }
+    // &__content {
+    //     width: 50%;
+    // }
+    &__container {
+        max-width: 1230px;
+        margin: 0 auto;
+        padding: 0 15px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    &__body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        align-items: flex-start;
+        width: 50%;
+        padding-right: 55px;
+    }
+    &__title {
+        span {
+            margin-left: 247px;
+        }
+    }
+    &__list-name {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    &__list {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 50px;
+    }
+    &__slider {
+        width: 50%;
+        margin-left: auto;
+        & .slick-arrow {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            outline: none;
+            border: none;
+            background-color: transparent;
+            z-index: 5;
+        }
+        & .slick-next {
+            right: 0;
+        }
+        & .slick-prev {
+            left: 0;
+        }
+    }
+}

@@ -1,0 +1,53 @@
+.fairy-tail {
+    &__title span {
+        margin-left: 180px;
+    }
+    &__inner {
+        position: relative;
+    }
+    &__container {
+        max-width: 1230px;
+        padding: 0 15px;
+        margin: 0 auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    &__body {
+        width: 50%;
+        margin-left: auto;
+        padding-left:55px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
+    }
+    &__text {
+        padding: 10px 0;
+    }
+    &__list-name {
+        font-weight: 400;
+    }
+}
+
+.fairy-tail__slider {
+    width: 50%;
+}
+.fairy-tail__slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.fairy-tail__slider .slick-next {
+    right: 0;
+}
+.fairy-tail__slider .slick-prev {
+    left: 0;
+}
